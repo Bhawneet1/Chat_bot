@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chat_bot
 
-## Getting Started
+Welcome to the Chat_bot repository! This project is a chatbot created using Vibe coding and is deployed on Vercel. You can access the live demo [here](https://chat-bot-henna-nine.vercel.app/).
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Chat_bot is an interactive chatbot that leverages advanced coding techniques to provide a seamless user experience. It is designed to handle various user queries and provide relevant responses.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- **Real-time conversation handling**: The chatbot processes and responds to user inputs in real-time.
+- **User-friendly interface**: The interface is intuitive and easy to use, ensuring a positive user experience.
+- **Deployed on Vercel**: The chatbot is hosted on Vercel, providing high availability and scalability.
+- **Built with modern web technologies**: Utilizes TypeScript, CSS, and JavaScript to create a robust and maintainable codebase.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **TypeScript**: For type-safe JavaScript, enhancing code quality and maintainability.
+- **CSS**: For styling the application and ensuring a responsive design.
+- **JavaScript**: For adding dynamic functionality and interactivity.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+To get a local copy up and running, follow these simple steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Bhawneet1/Chat_bot.git
+   ```
+2. **Navigate to the project directory:**
+   ```sh
+   cd Chat_bot
+   ```
+3. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+## Usage:
+   ```sh
+   npm run dev
+   ```
+   Then, open your browser and navigate to http://localhost:3000 to see the chatbot in action.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ ## Project Structure
+   The project structure is organized as follows:
+   ```code
+    Chat_bot/
+    ├── public/               # Static assets (images, icons, etc.)
+    ├── src/                  # Source files
+    │   ├── components/       # React components
+    │   ├── pages/            # Next.js pages
+    │   ├── styles/           # CSS styles
+    │   ├── utils/            # Utility functions
+    │   ├── App.tsx           # Main application component
+    │   ├── index.tsx         # Entry point
+    ├── .gitignore            # Git ignore file
+    ├── package.json          # Project dependencies and scripts
+    ├── README.md             # Project documentation
+  ```
+ ## Contributing
+   Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+   1. Fork the Project
+   2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+   3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+   4. Push to the Branch (git push origin feature/AmazingFeature)
+   5. Open a Pull Request
+ ## License
+   Distributed under the MIT License. See LICENSE for more information.
+   
